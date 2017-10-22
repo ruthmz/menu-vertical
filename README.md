@@ -1,8 +1,8 @@
-Menú Horizonal
+Menú Vertical
 =========================
 Descripción del proyecto
 ------------------------
-Replica de un menú horizonal.
+Replica de un menú vertical.
 
 Herramientas
 ------------
