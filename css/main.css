@@ -1,13 +1,16 @@
 body{
     font-family: sans-serif;
 }
+nav{
+    /* outline: 1px solid red; */
+    width: 200px;
+}
 ul {
     /* outline:  1px solid red;     */
     list-style: none;
     margin: 0;
     padding: 0;
-    width: 180px;
-    line-height: 24px;
+    line-height: 30px;
 }
 li {
     /* outline:  1px solid blue; */
@@ -19,13 +22,17 @@ a {
     display: block;
     text-decoration: none;
     color:#000;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 ul li:first-child{
     background: #f9a91a;
 }
 a:hover{
     background:#e0e0d1;
+}
+a:active{
+    background: #333;
+    color:#fff;
 }
 ul li:first-child{
     background: #f9a91a;
@@ -35,4 +42,7 @@ ul li:first-child a {
 }
 ul li:first-child a:hover{
     color:#000;
+}
+ul li:first-child a:active{
+    color:#fff;
 }
