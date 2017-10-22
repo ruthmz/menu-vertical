@@ -1,0 +1,18 @@
+*{
+    font-family: sans-serif;
+}
+#container{
+    width: 250px;
+    background: pink;
+    box-sizing: border-box;
+    padding: 5px;
+}
+nav{
+    margin-top: 4px;   
+}
+a{
+    text-decoration: none; 
+}
+nav:hover{
+    background-color: #FFFFFF;
+}
