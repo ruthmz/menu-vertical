@@ -7,6 +7,8 @@ nav{
 }
 ul {
     /* outline:  1px solid red;     */
+    /* Usamos none en list-style para quitarle las viñetas y a padding y margin le ponemos el valor de 0 para quitarle el espacio a la izquierda */
+    /* usamos line height para dejarle un espacio entre líneas */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -19,30 +21,33 @@ li {
 
 a {
     /* outline: 1px solid green; */
+    /* quitamos el subrayado de los links y le damos la propiedad de bloque */
     display: block;
     text-decoration: none;
     color:#000;
     padding-left: 10px;
 }
 ul li:first-child{
+   /* le asignamos color de fondo al primer elemento li hijo de ul */
     background: #f9a91a;
 }
 a:hover{
+   /* le ponemos un color de sombreado cuando señalen el link */
     background:#e0e0d1;
 }
 a:active{
+    /* le ponemos un color de sombreado cuando den click al link */
     background: #333;
     color:#fff;
-}
-ul li:first-child{
-    background: #f9a91a;
 }
 ul li:first-child a {
     color:#fff;
 }
 ul li:first-child a:hover{
+   /* le ponemos un color de letra cuando señalen al primer link */
     color:#000;
 }
 ul li:first-child a:active{
+   /* le ponemos un color de letra cuando den click al primer link */
     color:#fff;
 }
